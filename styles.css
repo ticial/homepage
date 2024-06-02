@@ -168,6 +168,20 @@ body {
   margin-bottom: 15px;
 }
 
+.skills__wrapper {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-around;
+}
+
+.skills__list {
+  padding-left: 20px;
+}
+
+.skills__list li::marker {
+  color: var(--text-decoration-color);
+}
+
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
@@ -236,6 +250,10 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+  margin-bottom: 40px;
 }
 
 .additional-info__education-university-durability {
